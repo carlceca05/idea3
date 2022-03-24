@@ -23,54 +23,42 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
     <style>
+        /*escritorios  
         @media only screen and (min-width:900px) and (max-width:2000px) {
-            
-            
             .aparece{
                 display: none;
             }
-        }
+        }*/
+        /*moviles   
         @media only screen and (min-width:100px) and (max-width:900px) {
-           
-           
             .desaparece{
                 display: none;
             }
-        }
-        .arriba {
-            position: fixed;
-            right: 22px;
-            text-align: center;
-            line-height: 50px;
-            bottom: 20px;
-            width: 50px;
-            height: 50px;
-            background-color: rgba(180, 180, 180, .7);
-            border-radius: 25px;
-            color: #fff;
-            vertical-align: middle;
-            z-index: 999;
-        }
+        }*/
+        
     </style>
 </head>
 <body>
     <!-- seccion 1 portada-->
-    <div class="jumbotron-fluid py-5 " style="background: rgb(168, 168, 168);
+    <div class="jumbotron-fluid py-0 py-lg-5 " style="background: rgb(168, 168, 168);
     background: radial-gradient(circle, rgb(177, 177, 177) 0%, rgb(230, 230, 230) 55%);">
-        <div class="container py-5 "  >
-            <div class="row row-cols-1 row-cols-lg-2 py-4 bg-light " style="outline: 1px solid #fbaf7e;">
-                <div class="col ps-5">
+        <div class="container py-o py-lg-5"  >
+            <div class="row row-cols-1 row-cols-lg-2 py-0 py-lg-4 bg-light " style="outline: 1px solid #fbaf7e;">
+                <div class="col p-4 p-lg-4">
                     <div class=" mb-5 mt-4 "> 
                         <img class="lazyload " data-src="imagenes/bienestarbien.png" width="170px" alt="">
                     </div>
-                    <h1 class="mb-5 fw-bold text-primary" style=" font-size: 50px; line-height: 1em;" >Vender Natura México</h1>
-                    <h5 class="fw-bold">¡Regístrate aquí, realiza tu primer pedido y comienza a ganar con Natura!</h5>
+                    <h1 class="mb-4 fw-bold text-primary text-center text-lg-start" style=" font-size: 50px; line-height: 1em;" >Vender Natura México</h1>
+                    <h5 class=" mb-4 mb-lg-0 text-center text-lg-start " >¡Regístrate aquí, realiza tu primer pedido y comienza a ganar con Natura!</h5>
+                    <div class="d-flex aparece mb-4" style=""  >
+                        <img class="lazyload ms-auto me-auto shadow aparece" data-src="imagenes/natura1.jpg" width="100%" alt="" style="border-radius: 50%;">
+                    </div>
                     <p class="mb-4" >Incrementa tus ingresos, gana premios, viajes, bonos y más… <br> Conoce como puedes emprender un negocio sustentable con una inversión minima. Conoce las ventajas y beneficios de vender Natura  </p>
-                    <p class=" mb-5"><a class="btn btn-primary text-white px-4" href="#registro"  style="font-size: 16px; font-weight: 400;"> ¡Regístrate!</a></p>
+                    <p class=" mb-5  text-center text-lg-start "><a class="btn btn-primary text-white px-4" href="#registro"  style="font-size: 16px; font-weight: 400;"> ¡Regístrate!</a></p>
                 </div>
-                <div class="col  p-4 position-relative"  >
-                    <div class="d-flex " style="position: absolute; top: -50px; "  >
-                        <img class="lazyload ms-auto me-auto shadow" data-src="imagenes/natura1.jpg" width="80%" alt="" style="border-radius: 50%;">
+                <div class="col  p-4 position-relative desaparece"  >
+                    <div class="d-flex desaparece " style="position: absolute; top: -50px; "  >
+                        <img class="lazyload ms-auto me-auto shadow desaparece" data-src="imagenes/natura1.jpg" width="80%" alt="" style="border-radius: 50%;">
                     </div>
                 </div>
             </div>
@@ -83,21 +71,21 @@
             </div>
             <div class="row pt-5 ">
                 <div class="col-md-4 col-sm-12 col-xs-12 ">
-                    <h2 class="text-end fw-bold text-primary" style="font-size: 55px; line-height: 1em;"   >¡Emprende tu propio negocio!</h2> 
-                    <p class=" text-end">  Genera ingresos de forma independiente recomendando productos Natura.</p>
-                    <p class="mb-0  text-end "> <i class="bi bi-caret-right-fill  text-primary "></i> Genera ingresos extra  </p>
-                    <p class="mb-0 text-end"> <i class="bi bi-caret-right-fill  text-primary "></i> Creciendo profesionalmente  </p>
-                    <p class="mb-0 text-end"> <i class="bi bi-caret-right-fill  text-primary "></i> Tu administras tu tiempo así como tus recursos  </p>
+                    <h2 class="text-center text-end fw-bold text-primary mb-3 mb-lg-2" style="font-size: 55px; line-height: 1em;"   >¡Emprende tu propio negocio!</h2> 
+                    <p class=" text-center text-lg-end">  Genera ingresos de forma independiente recomendando productos Natura.</p>
+                    <p class="mb-0 text-center text-lg-end "> <i class="bi bi-caret-right-fill  text-primary "></i> Genera ingresos extra  </p>
+                    <p class="mb-0 text-center text-lg-end"> <i class="bi bi-caret-right-fill  text-primary "></i> Creciendo profesionalmente  </p>
+                    <p class="mb-4 mb-lg-0 text-center text-lg-end"> <i class="bi bi-caret-right-fill  text-primary "></i> Tu administras tu tiempo así como tus recursos  </p>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <strong>www.vendernaturamexico.com.mx</strong> es un sitio creado para ayudarte a realizar tu registro de manera fácil y segura directamente en Natura. Afíliate aquí de forma segura y comienza a formar parte de Natura y el bien estar bien. <br><br>¡Regístrate en el formulario y comienza como Consultora Natura en México hoy! </p>
                     <p>Inicia tus ventas en Natura con una inversión mínima y aprovecha descuentos especiales, regalos increíbles y promociones exclusivas e incrementa tus ingresos cada ciclo. ¡Como consultora natura podrás generar ganancias del 30% hasta el 150% o más en cada pedido!</p>
                     
-                    <p class="mt-3"><a class="btn btn-primary text-white px-4" href="#registro"  style="font-size: 16px; font-weight: 400;"> ¡Regístrate!</a></p>
+                    <p class="mt-3 text-center text-lg-start mb-4 mb-lg-2"><a class="btn btn-primary text-white px-4" href="#registro"  style="font-size: 16px; font-weight: 400;"> ¡Regístrate!</a></p>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12">
                     <div>
-                        <img class="shadow" src="imagenes/hh.jpg" width="90%"  alt="" style="">
+                        <img class="shadow" src="imagenes/chicaproductos2.png" width="90%"  alt="" style="">
                     </div>
                 </div>
             </div>
@@ -105,14 +93,12 @@
     </div>
 
     <!-- seccion 3 iconos-->
-    <div class="container-fluid py-5 "  style="background: rgb(168, 168, 168);
-    background: radial-gradient(circle, rgb(177, 177, 177) 0%, rgb(230, 230, 230) 55%);">
+    <div class="container-fluid py-5 bg-light">
         <div class="container pb-5 pt-5">
-            <h2 class="text-end fw-bold " style="font-size: 55px; line-height: 1em;"   >Ventajas y beneficios de <br>Vender Natura en México</h2> 
-            <p class="mb-5 text-end">Conoce todo lo que natura tiene para ti por ser Consultora Natura   </p>
+            <h2 class="text-center text-lg-end  fw-bold text-primary" style="font-size: 50px; line-height: 1em;"   >Ventajas y beneficios de <br>Vender Natura en México</h2> 
+            <p class="mb-5 text-center text-lg-end">Conoce todo lo que natura tiene para ti por ser Consultora Natura   </p>
             <div class="row ">
-               
-                <div class="col-9">
+                <div class="col-12 col-lg-9">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12 d-flex text-center mb-3" >
                             <div class="bg-light  p-3" style="outline: 1px solid #fbaf7e;">
@@ -142,39 +128,39 @@
                                 <p class="small">Contamos con una red sustentable de relaciones con la que puedes incrementar tus ingresos.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex text-center mb-3">
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex text-center mb-3 mb-lg-0">
                             <div class="bg-light p-3 mb-0" style="outline: 1px solid #fbaf7e;">
                                 <i class="bi bi-easel fs-4 text-primary me-3"></i>
                                 <h6 class="mb-0">Capacitación y seguimiento</h6>
                                 <p class="small"> Recibe acceso a cursos y entrenamientos gratuitos. </p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex text-center mb-3">
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex text-center mb-3 mb-lg-0">
                             <div class="bg-light  p-3 mb-0" style="outline: 1px solid #fbaf7e;">
                                 <i class="bi bi-gift fs-4 text-primary me-3"></i>
                                 <h6 class="">Premios y reconocimientos</h6>
                                 <p class="small">Gana productos, reconocimientos, premios y viajes. </p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex text-center mb-3">
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex text-center mb-3 mb-lg-0">
                             <div class="bg-light  p-3 mb-0" style="outline: 1px solid #fbaf7e;">
                                 <i class="bi bi-award fs-4 text-primary me-3"></i>
                                 <h6 class=" ">Productos de calidad</h6>
                                 <p class="small">Productos de origen vegetal, empaques reciclables y repuestos 100% sustentable. </p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex text-center mb-3" >
+                        <div class="col-lg-3 col-md-6 col-sm-12 d-flex text-center mb-3 mb-lg-0" >
                             <div class="bg-light  p-3 mb-0" style="outline: 1px solid #fbaf7e;">
                                 <i class="bi bi-cash-coin fs-4 text-primary me-3"></i>
                                 <h6 class="">Decide cuánto ganas</h6>
-                                <p class="small">No existen límites cuando se trata de los ingresos que puedes generar en natura.</p>
+                                <p class="small  ">No existen límites cuando se trata de los ingresos que puedes generar en natura.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="" style="display: flex; justify-content: center; align-items: center;   " >
-                        <img class="pt-4" src="imagenes/chicaconbolsa.png" width="100%"  alt="" style="" >
+                <div class="col-12 col-lg-3">
+                    <div class="h-100" style="display: flex; justify-content: center; align-items: center;   " >
+                        <img class="" src="imagenes/chicaconbolsa-2.png" width="100%" height="100%" alt="" style="object-fit: cover;" >
                     </div>
                 </div>
             </div> 
@@ -183,7 +169,7 @@
     <!--kit de emprendimiento-->
     <section class="container-fluid py-5">
         <div class="container py-5">
-            <h2 class=" fw-bold text-primary" style="font-size: 55px; line-height: 1em;"   >Comienza con una ganancia <br> inicial segura</h2> 
+            <h2 class=" fw-bold text-primary" style="font-size: 50px; line-height: 1em;"   >Comienza con una ganancia <br> inicial segura</h2> 
             <p class=""> ¡Comienza tu negocio y gana mas de $6,000
                     pesos con Natura! </p>
             <h5 class=" text-center text-lg-start mt-lg-5 mt-0 poppins mb-0"> </h5>
@@ -223,11 +209,10 @@
     </section>
     
     <!--franjas-->
-     <section class="container-fluid py-5"  style="background: rgb(168, 168, 168);
-     background: radial-gradient(circle, rgb(177, 177, 177) 0%, rgb(230, 230, 230) 55%);">
+     <section class="container-fluid py-5 bg-light"  >
         <div class="container py-5">
-            <h2 class=" fw-bold text-end" style="font-size: 55px; line-height: 1em;"   >Conoce cuál sería tu ganancia</h2> 
-            <p class="text-end"> Conoce cuanto podrías ganar de acuerdo a tu nivel en el ciclo actual </p>
+            <h2 class=" fw-bold text-center text-lg-end text-primary" style="font-size: 50px; line-height: 1em;"   >Conoce cuál sería tu ganancia</h2> 
+            <p class="text-center text-lg-end"> Conoce cuanto podrías ganar de acuerdo a tu nivel en el ciclo actual </p>
             <div>
                 <header class="text-end pe-4 ">
                     <p>
@@ -297,39 +282,43 @@
     <!--testimonios-->
     <div class="container-fluid py-0 py-lg-5 "  >
         <div class="container py-5">
-            <h2 class=" fw-bold " style="font-size: 50px; line-height: 1em;"> Testimonios de consultoras </h2> 
+            <h3 class=" fw-bold text-primary" style="font-size: 50px; line-height: 1em;"> Testimonios de consultoras </h3> 
             <p class="">  Te ayudamos en el éxito de tus ventas, obtén asesoría, capacitación, y muchas herramientas para lograr tus metas. </p>
             <div class="row me-auto ms-auto mt-5 " style="max-width: 1100px;"   >
-                <div class="col d-flex justify-content-center mb-3">
-                    <div class="p-4 shadow h-100 bg-light"  style="width: 20rem; outline: 1px solid rgba(243, 156, 18, 0.3);"  >
-                        <img class="lazyload " data-src="imagenes/testimonio-1.jpg" width="100%" alt="">
-                        <h6 class="mt-3 text-primary fw-bold poppins" title="ingresos natura"> Sofia Rivera</h6>
+                <div class="col d-flex justify-content-center mb-5 mb-lg-3">
+                    <div class="p-4 shadow h-100 bg-light position-relative"  style="width: 20rem; outline: 1px solid rgba(243, 156, 18, 0.3);"  >
+                        <div class="" style="position: absolute; left: 35%;  top: -20px;   "  >
+                            <img class="lazyload " data-src="imagenes/testimonio-1.png" width="100px" alt="">
+                        </div>
+                        <h6 class=" text-primary fw-bold text-center" title=""  style="margin-top: 25%;" > Sofia Rivera</h6>
                         <p class="small"> Ingresé para obtener ingresos extra, sin perder oportunidad de seguir creciendo académicamente, hoy puedo agradecer a <strong> Natura</strong> que he seguido creciendo tanto profesionalmente como personalmente.  </p>
                     </div>
                 </div> 
-                
-                <div class="col d-flex justify-content-center mb-3 position-relative " >
-                    <div class="p-4 shadow movidito h-100 bg-light" style="width: 20rem; outline: 1px solid rgba(243, 156, 18, 0.3);" >
-                        <img class="lazyload " data-src="imagenes/testimonio-4.jpg" width="100%" alt="" title="ingresos natura">
-                        <h6 class="mt-3 text-primary fw-bold poppins">Carmen Sainz</h6>
-                        <p class="small mb-4"> Entre como consultora a <strong>Natura</strong> para comprar los productos de forma personal, pero en mi trabajo me comenzaron a pedir por lo que comencé a vender, ahora ya puedo confirmar que tengo mi propio negocio, y tengo que agradecer a las personas que me han ayudado desde que me registré en esta página. </p>
+                <div class="col d-flex justify-content-center mb-5 mb-lg-3">
+                    <div class="p-4 shadow h-100 bg-light position-relative"  style="width: 20rem; outline: 1px solid rgba(243, 156, 18, 0.3);"  >
+                        <div class="" style="position: absolute; left: 35%;  top: -20px;   "  >
+                            <img class="lazyload " data-src="imagenes/testimonio-1.png" width="100px" alt="">
+                        </div>
+                        <h6 class=" text-primary fw-bold text-center" title=""  style="margin-top: 25%;" > Carmen Sainz</h6>
+                        <p class="small"> Entre como consultora a <strong>Natura</strong> para comprar los productos de forma personal, pero en mi trabajo me comenzaron a pedir por lo que comencé a vender, ahora ya puedo confirmar que tengo mi propio negocio, y tengo que agradecer a las personas que me han ayudado desde que me registré en esta página.  </p>
                     </div>
-                </div>
-                <div class="col d-flex justify-content-center mb-3">
-                    <div class="p-4 shadow h-100 bg-light" style="width: 20rem; outline: 1px solid rgba(243, 156, 18, 0.3);" >
-                        <img class="lazyload " data-src="imagenes/testimonio-3.jpg" width="100%" alt="" title="ingresos natura">
-                        <h6 class="mt-3 text-primary fw-bold poppins"> Aurora Sanchez</h6>
-                        <p class="small"> Conocí los <strong>productos Natura</strong> y de todos sus beneficios a través de un familiar así que busque como podía yo también ofrecer los productos, encontré esta página y hasta el día de hoy después de meses de haberme registrado me siguen apoyando ciclo a ciclo en todo lo que necesito para obtener ingresos vendiendo <strong>Natura</strong>.    </p>
+                </div> 
+                <div class="col d-flex justify-content-center mb-5 mb-lg-3">
+                    <div class="p-4 shadow h-100 bg-light position-relative"  style="width: 20rem; outline: 1px solid rgba(243, 156, 18, 0.3);"  >
+                        <div class="" style="position: absolute; left: 35%;  top: -20px;   "  >
+                            <img class="lazyload " data-src="imagenes/testimonio-1.png" width="100px" alt="">
+                        </div>
+                        <h6 class=" text-primary fw-bold text-center" title=""  style="margin-top: 25%;" > Aurora Sanchez</h6>
+                        <p class="small">  Conocí los <strong>productos Natura</strong> y de todos sus beneficios a través de un familiar así que busque como podía yo también ofrecer los productos, encontré esta página y hasta el día de hoy después de meses de haberme registrado me siguen apoyando ciclo a ciclo en todo lo que necesito para obtener ingresos vendiendo <strong>Natura</strong>.  </p>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
     <!-- seccion 5 requisitos-->
-		<div class="container-fluid py-5" id="requisitos" style="background: rgb(168, 168, 168);
-        background: radial-gradient(circle, rgb(177, 177, 177) 0%, rgb(230, 230, 230) 55%);">     
+		<div class="container-fluid py-5 bg-light" id="requisitos" >     
 			<div class="container  py-5">     
-                <h2 class=" fw-bold  text-end" style="font-size: 50px; line-height: 1em;"> Regístrate como <br> Consultora Natura?   </h2> 
+                <h3 class=" fw-bold text-center text-lg-end text-primary" style="font-size: 50px; line-height: 1em;"> Regístrate como Consultora Natura?   </h3> 
         		<div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 ">
           			<div class="col fondito pt-3 rounded-start">
 						<h5 class=" mb-4 ">Requisitos <u> obligatorios </u> para ser Consultora Natura:</h5>
@@ -403,24 +392,23 @@
     <div class="container-fluid pt-5 " id="registro"   >
         <div class="container  pt-4 pb-5">
             <div class="row">
-                <div class="col-5">
-                    <h3 class=" fw-bold text-primary"  style="font-size: 60px; line-height: 1em;  "  > Regístrate en Natura </h3>
-                    <p class=" mb-5 "> </p>
+                <div class="col-12 col-lg-5">
+                    <h3 class=" fw-bold text-primary" style="font-size: 60px; line-height: 1em;"> Regístrate en Natura </h3>
                     <div class="">
                         <h6 class="" style="font-size: 20px;">Importante</h6>
                         <p class="">Deberás llenar los datos del formulario de este sitio y enviar copia o captura de tu identificación y comprobante a <b>info@vendernaturamexico.com.mx</b> para completar correctamente tu registro.</p>
                         <p class=""> Una vez enviados tus datos un asesor/a se pondra en contacto contigo. </p>
                     </div>
-                    <div class="mt-5">
+                    <div class="mt-5 desaparece">
                         <div>
                             <img class="shadow" src="imagenes/vendernatura1.png" width="60%" alt="">
                         </div>
                         <div class="position-relative">
-                            <img src="imagenes/natura 728.png" width="70%" alt="" style="position: absolute; right: 0; top: -130px; ">
+                            <img class="shadow" src="imagenes/natura 728.png" width="70%" alt="" style="position: absolute; right: 0; top: -130px; ">
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-lg-7  ">
                     <!-- Begin Mailchimp Signup Form -->
         <link href="css/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
         <style type="text/css">
